@@ -1,0 +1,178 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+        background-color: #48b6e6;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-family: 'nunito';
+}
+
+header div img:hover{
+    transform: scale(1.2);
+}
+
+h1{
+    color: rgb(7, 7, 7);
+    text-align: center;
+    font-size: 80px;
+    font-family: 'Nunito', sans-serif;
+    padding: 50px 60px;
+    margin: 0px;
+    justify-content: flex-start;    
+}
+
+body{
+    background-color: #f8f6e6;
+
+}
+
+h2{
+    font-family: Arial, Helvetica, sans-serif;;
+    margin: 20px 0px 20px 0px;
+    font-size: 40px;
+    text-align: center;
+}
+h3, h4{
+    font-family: 'Nunito', serif;
+    margin: 20px 0px 20px 0px;
+}
+header nav ul{
+    list-style-type: none;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-around;
+    height: 100px;
+}
+
+header nav ul li:hover{
+    transform: scale(1.1);
+}
+header nav ul li a{
+    color: rgb(7, 7, 7)
+}
+
+nav{
+    width: 30%;
+    
+
+}
+a{
+    text-decoration: none;
+    color: rgb(15, 15, 15);
+}
+
+p{
+    font-size: larger;
+    color: rgb(12, 12, 12);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.parrafo_index{
+    margin: 50px 80px 50px 200px;
+    width: 70%;
+    
+}
+.parrafo-por-la-mitad{
+    width: 60%;
+}
+
+.quienes_somos{
+    display: flex;
+    align-content: center;
+    gap: 20px;
+    padding: 0px 0px 50px 0px;
+    
+
+}
+section h3{
+    text-decoration: underline;
+    font-size: 25px;
+}
+
+.section_nosotros{
+    display: flex;
+    padding: 30px 30px;
+    align-items: normal;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.article_nosotros{
+    padding: 30px 30px;
+}
+
+article h3{
+    text-decoration: underline;
+    font-size: 25px; 
+}
+
+main{
+    padding: 50px 60px;
+    
+}
+
+main div{
+    display: inline-block;
+}
+.imagenes_index{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+footer{
+    padding: 10px 10px;
+    margin: 30px, 30px, 30px, 30px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #2e596b;
+    align-items: end;
+    font-family: 'nunito';
+    
+}
+footer div{
+    justify-content: space-around;
+    
+}
+footer ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.contacto{
+    display: flex;
+    flex-direction: column;
+}
+
+main section span{
+    width: 40%;
+}
+
+.gatitos{
+    display: flex;
+    align-content: center;
+    flex-direction: row;
+    gap: 20px;
+    font-style: italic;
+    font-weight: bold;
+}
+.perritos{
+    display: flex;
+    align-content: center;
+    flex-direction: row;
+    gap: 20px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+@media (min-width: 200px) and (max-width: 500px){
+    .gatitos{
+        flex-direction: column;
+    }
+    .perritos{
+        flex-direction: column;
+    }
+    
+}
